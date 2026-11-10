@@ -1,0 +1,20 @@
+{
+  "fictional": true,
+  "kind": "answerable",
+  "ticket": {
+    "id": "T-0004",
+    "from_name": "Jonas Okafor-Demo",
+    "from_email": "jonas@copperkettle-demo.example",
+    "subject": "Pay now button not showing on my invoices",
+    "body": "Hi team, I would like my customers to pay by card directly from the invoice email. I do not see a Pay now button on my invoices. What do I need to set up? I am on the Free plan, if that matters.",
+    "received_at": "2026-11-05T09:15:00Z"
+  },
+  "expected_category": "how_to",
+  "expected_escalate": false,
+  "expected_sources": [
+    "kb/accepting-online-payments.md"
+  ],
+  "injection": null,
+  "kb": "main",
+  "note": "Connecting a payment provider; available on all plans."
+}

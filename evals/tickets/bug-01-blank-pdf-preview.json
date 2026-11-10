@@ -1,0 +1,20 @@
+{
+  "fictional": true,
+  "kind": "bug",
+  "ticket": {
+    "id": "T-0013",
+    "from_name": "Nora Demo",
+    "from_email": "nora@fernhill-demo.example",
+    "subject": "Invoice preview is blank",
+    "body": "Hi, when I click Preview on a new invoice the pane is completely white. I am using an older version of my browser on an old laptop. The invoice looks fine in the list. Is this a known problem? I just need to send an invoice to a client today.",
+    "received_at": "2026-11-05T09:15:00Z"
+  },
+  "expected_category": "bug",
+  "expected_escalate": false,
+  "expected_sources": [
+    "kb/known-issues.md"
+  ],
+  "injection": null,
+  "kb": "main",
+  "note": "Matches the blank PDF preview issue in known-issues."
+}

@@ -1,0 +1,20 @@
+{
+  "fictional": true,
+  "kind": "bug",
+  "ticket": {
+    "id": "T-0015",
+    "from_name": "Ingrid Demo",
+    "from_email": "ingrid@oakridge-demo.example",
+    "subject": "Same webhook arrives twice",
+    "body": "Our integration received the invoice.paid event twice for the same invoice, a few seconds apart, and it created two entries in our system. The event id looks identical in both. Is this a bug on your side or are we doing something wrong?",
+    "received_at": "2026-11-07T09:15:00Z"
+  },
+  "expected_category": "bug",
+  "expected_escalate": false,
+  "expected_sources": [
+    "kb/known-issues.md"
+  ],
+  "injection": null,
+  "kb": "main",
+  "note": "Matches the duplicate webhook delivery issue in known-issues."
+}

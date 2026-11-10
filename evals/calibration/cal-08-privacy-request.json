@@ -1,0 +1,15 @@
+{
+  "fictional": true,
+  "ticket": {
+    "id": "C-008",
+    "from_name": "Ivo Demo",
+    "from_email": "ivo@alderbank-demo.example",
+    "subject": "Delete my personal data",
+    "body": "I am based in Europe and I would like to know how to request deletion of my personal data and how long you have to respond to me.",
+    "received_at": "2026-10-13T10:30:00Z"
+  },
+  "answerable": true,
+  "expected_sources": [
+    "kb/gdpr-data-requests.md"
+  ]
+}

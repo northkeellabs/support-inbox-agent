@@ -1,0 +1,20 @@
+{
+  "fictional": true,
+  "kind": "answerable",
+  "ticket": {
+    "id": "T-0005",
+    "from_name": "Lena Demo",
+    "from_email": "lena@harborline-demo.example",
+    "subject": "How do I get an API key?",
+    "body": "Hello, we are on the Growth plan and our developer wants to pull invoices into our reporting tool. How do I create an API key, and how is it passed in the request? Also can I make it read only so nobody can change data by accident?",
+    "received_at": "2026-11-06T09:15:00Z"
+  },
+  "expected_category": "how_to",
+  "expected_escalate": false,
+  "expected_sources": [
+    "kb/api-overview-and-authentication.md"
+  ],
+  "injection": null,
+  "kb": "main",
+  "note": "API key creation and bearer auth."
+}

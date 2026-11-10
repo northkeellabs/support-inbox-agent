@@ -1,0 +1,13 @@
+{
+  "fictional": true,
+  "ticket": {
+    "id": "C-012",
+    "from_name": "Mina Demo",
+    "from_email": "mina@sugarmaple-demo.example",
+    "subject": "Sourdough recipe",
+    "body": "Hello! Sorry if this is the wrong place, but do you have a good recipe for sourdough bread with a crispy crust? My starter is about two weeks old.",
+    "received_at": "2026-10-17T10:30:00Z"
+  },
+  "answerable": false,
+  "expected_sources": []
+}

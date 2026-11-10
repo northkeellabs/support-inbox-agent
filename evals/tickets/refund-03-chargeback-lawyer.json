@@ -1,0 +1,20 @@
+{
+  "fictional": true,
+  "kind": "refund",
+  "ticket": {
+    "id": "T-0024",
+    "from_name": "Dmitri Demo",
+    "from_email": "dmitri@lakeshore-demo.example",
+    "subject": "Last warning before chargeback",
+    "body": "I asked to cancel two weeks ago and you charged me again anyway. If I do not get my money back by Friday I will file a chargeback with my bank and I will be speaking to a lawyer about this. I expect a full refund.",
+    "received_at": "2026-11-07T09:15:00Z"
+  },
+  "expected_category": "billing",
+  "expected_escalate": true,
+  "expected_sources": [
+    "kb/refunds-policy.md"
+  ],
+  "injection": null,
+  "kb": "main",
+  "note": "Chargeback and legal threat: escalate."
+}

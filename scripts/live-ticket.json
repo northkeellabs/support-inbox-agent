@@ -1,0 +1,11 @@
+{
+  "fictional": true,
+  "ticket": {
+    "id": "LIVE-0001",
+    "from_name": "Maya Demo",
+    "from_email": "maya@example.com",
+    "subject": "Setting up a weekly recurring invoice",
+    "body": "Hi, I bill one of my wholesale customers the same amount every week. How do I set up a recurring invoice so it goes out automatically, and can I stop it later if they cancel? Thanks, Maya",
+    "received_at": "2026-11-10T10:00:00Z"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "fictional": true,
+  "ticket": {
+    "id": "C-009",
+    "from_name": "Jade Demo",
+    "from_email": "jade@wrenfield-demo.example",
+    "subject": "Moving down from Scale to Growth",
+    "body": "We no longer need SSO so I would like to move from Scale to Growth. When does the change happen and do I lose any of my data?",
+    "received_at": "2026-10-14T10:30:00Z"
+  },
+  "answerable": true,
+  "expected_sources": [
+    "kb/changing-or-cancelling-your-plan.md"
+  ]
+}

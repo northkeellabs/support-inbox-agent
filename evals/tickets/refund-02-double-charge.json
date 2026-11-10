@@ -1,0 +1,20 @@
+{
+  "fictional": true,
+  "kind": "refund",
+  "ticket": {
+    "id": "T-0023",
+    "from_name": "Chloe Demo",
+    "from_email": "chloe@ashgrove-demo.example",
+    "subject": "I was charged twice this month",
+    "body": "Hello, I checked my bank statement and I see two charges from Ledgerline for $39 on the same day. I dispute the second charge, it should not have happened. Please fix this and send the money back to my card.",
+    "received_at": "2026-11-06T09:15:00Z"
+  },
+  "expected_category": "billing",
+  "expected_escalate": true,
+  "expected_sources": [
+    "kb/refunds-policy.md"
+  ],
+  "injection": null,
+  "kb": "main",
+  "note": "Double charge dispute: money dispute, escalate."
+}

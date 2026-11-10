@@ -1,0 +1,13 @@
+{
+  "fictional": true,
+  "ticket": {
+    "id": "C-011",
+    "from_name": "Lars Demo",
+    "from_email": "lars@gridlock-demo.example",
+    "subject": "Help with my Python script",
+    "body": "Hi, my Python script keeps raising a KeyError when I parse a JSON file from my warehouse system. Could you look at the code below and tell me what is wrong? for item in data['items']: print(item['sku'])",
+    "received_at": "2026-10-16T10:30:00Z"
+  },
+  "answerable": false,
+  "expected_sources": []
+}

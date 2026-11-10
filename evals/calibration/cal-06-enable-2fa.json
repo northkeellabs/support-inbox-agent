@@ -1,0 +1,15 @@
+{
+  "fictional": true,
+  "ticket": {
+    "id": "C-006",
+    "from_name": "Farid Demo",
+    "from_email": "farid@juniper-demo.example",
+    "subject": "Turning on two factor for my team",
+    "body": "I would like everyone in my company to use an authenticator app when they sign in. Is there a way to force it for all users instead of asking each person?",
+    "received_at": "2026-10-11T10:30:00Z"
+  },
+  "answerable": true,
+  "expected_sources": [
+    "kb/two-factor-authentication.md"
+  ]
+}

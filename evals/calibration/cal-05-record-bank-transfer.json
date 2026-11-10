@@ -1,0 +1,15 @@
+{
+  "fictional": true,
+  "ticket": {
+    "id": "C-005",
+    "from_name": "Esme Demo",
+    "from_email": "esme@thistledown-demo.example",
+    "subject": "Customer paid by bank transfer",
+    "body": "A customer sent me the money by bank transfer yesterday. How do I mark the invoice as paid and stop the reminders? They only paid part of the amount, by the way.",
+    "received_at": "2026-10-10T10:30:00Z"
+  },
+  "answerable": true,
+  "expected_sources": [
+    "kb/recording-manual-payments.md"
+  ]
+}

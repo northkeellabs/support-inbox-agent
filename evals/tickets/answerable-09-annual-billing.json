@@ -1,0 +1,21 @@
+{
+  "fictional": true,
+  "kind": "answerable",
+  "ticket": {
+    "id": "T-0009",
+    "from_name": "Grace Demo",
+    "from_email": "grace@pinecrest-demo.example",
+    "subject": "How does annual billing work?",
+    "body": "Hello, I am thinking of switching from monthly to annual on the Starter plan. How much would I pay up front, when would it renew, and what happens to the rest of the month I have already paid for? Just trying to understand before I click anything.",
+    "received_at": "2026-11-01T09:15:00Z"
+  },
+  "expected_category": "billing",
+  "expected_escalate": false,
+  "expected_sources": [
+    "kb/pricing-and-plans.md",
+    "kb/changing-or-cancelling-your-plan.md"
+  ],
+  "injection": null,
+  "kb": "main",
+  "note": "Plan information question, not a refund or dispute."
+}

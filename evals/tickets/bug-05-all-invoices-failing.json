@@ -1,0 +1,18 @@
+{
+  "fictional": true,
+  "kind": "bug",
+  "ticket": {
+    "id": "T-0017",
+    "from_name": "Rosa Demo",
+    "from_email": "rosa@bluepeak-demo.example",
+    "subject": "URGENT: all our invoices are failing to send",
+    "body": "This is unacceptable. Since this morning EVERY invoice we try to send fails and our clients are waiting for payment details. We have 40 invoices stuck and I have already tried three times. We pay for this service and it is costing us money right now. Fix this immediately or we will look for another provider.",
+    "received_at": "2026-11-09T09:15:00Z"
+  },
+  "expected_category": "bug",
+  "expected_escalate": true,
+  "expected_sources": [],
+  "injection": null,
+  "kb": "main",
+  "note": "Angry and urgent, not covered by the KB: escalate on high urgency with negative sentiment and no grounded answer."
+}

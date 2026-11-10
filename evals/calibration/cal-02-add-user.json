@@ -1,0 +1,15 @@
+{
+  "fictional": true,
+  "ticket": {
+    "id": "C-002",
+    "from_name": "Bruno Demo",
+    "from_email": "bruno@kestrel-demo.example",
+    "subject": "Adding my bookkeeper",
+    "body": "Hello, I want to give my bookkeeper access so she can see invoices and change the payment card but not edit my settings. How do I invite her and which role should I pick?",
+    "received_at": "2026-10-07T10:30:00Z"
+  },
+  "answerable": true,
+  "expected_sources": [
+    "kb/user-roles-and-permissions.md"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "fictional": true,
+  "kind": "answerable",
+  "ticket": {
+    "id": "T-0001",
+    "from_name": "Maya Demo",
+    "from_email": "maya@brightpaws-demo.example",
+    "subject": "Setting up a monthly retainer invoice",
+    "body": "Hi, I run a small dog grooming business and I have a client on a monthly retainer. I would like the invoice to be created and emailed to them automatically on the first of each month. Is that possible and where do I set it up? I am on the Starter plan. Thanks!",
+    "received_at": "2026-11-02T09:15:00Z"
+  },
+  "expected_category": "how_to",
+  "expected_escalate": false,
+  "expected_sources": [
+    "kb/recurring-invoices.md"
+  ],
+  "injection": null,
+  "kb": "main",
+  "note": "Recurring schedule setup, answered in recurring-invoices."
+}
