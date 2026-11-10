@@ -1,0 +1,20 @@
+{
+  "fictional": true,
+  "kind": "answerable",
+  "ticket": {
+    "id": "T-0012",
+    "from_name": "Mateo Demo",
+    "from_email": "mateo@saltmarsh-demo.example",
+    "subject": "Need to change the card for my subscription",
+    "body": "Hello, our company card expired and I want to update the card used for the Ledgerline subscription before the next renewal. Where do I do that, and can any user do it or only me? I am the account owner.",
+    "received_at": "2026-11-04T09:15:00Z"
+  },
+  "expected_category": "billing",
+  "expected_escalate": false,
+  "expected_sources": [
+    "kb/subscription-billing-and-receipts.md"
+  ],
+  "injection": null,
+  "kb": "main",
+  "note": "Changing payment card, not a dispute."
+}

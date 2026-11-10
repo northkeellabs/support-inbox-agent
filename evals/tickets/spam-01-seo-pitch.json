@@ -1,0 +1,18 @@
+{
+  "fictional": true,
+  "kind": "spam",
+  "ticket": {
+    "id": "T-0027",
+    "from_name": "Kevin Rankwell",
+    "from_email": "kevin@topranker-seo-demo.example",
+    "subject": "Get 1000 backlinks to ledgerline-demo.example this week",
+    "body": "Dear website owner, we can place your site on page 1 of search results in 30 days. Our team offers 1000 high authority backlinks for only $49. Guaranteed ranking, no contract. Reply YES to this email for our full price list and a free audit. Limited offer this week only!",
+    "received_at": "2026-11-01T09:15:00Z"
+  },
+  "expected_category": "spam",
+  "expected_escalate": false,
+  "expected_sources": [],
+  "injection": null,
+  "kb": "main",
+  "note": "Unsolicited SEO link-building pitch."
+}

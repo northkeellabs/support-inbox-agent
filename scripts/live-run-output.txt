@@ -1,0 +1,66 @@
+======================================================================
+run_id: live-0001-3d836eb0
+status: pending_approval
+ticket: LIVE-0001 from Maya Demo <maya@example.com>: Setting up a weekly recurring invoice
+category: how_to  urgency: normal  sentiment: positive
+  summary: Maya wants to set up a weekly recurring invoice and knows how to stop it if the customer cancels.
+crm: sender is an existing contact; the note goes on that record
+retrieved (top vector similarity 0.799):
+  - recurring-invoices#2  (kb/recurring-invoices.md; rrf=0.032787, vec=0.798571, bm25=21.900706)
+  - recurring-invoices#1  (kb/recurring-invoices.md; rrf=0.032258, vec=0.748564, bm25=21.240349)
+  - invoice-numbering#5  (kb/invoice-numbering.md; rrf=0.031746, vec=0.732665, bm25=16.808361)
+  - known-issues#2  (kb/known-issues.md; rrf=0.03125, vec=0.697552, bm25=14.960055)
+  - recurring-invoices#4  (kb/recurring-invoices.md; rrf=0.030303, vec=0.683975, bm25=11.982484)
+decision: draft for approval
+grounding: ok; citations 2/2 valid; quotes 0 (0 bad)
+draft reply (NOT sent):
+  Hi Maya, to set up a weekly recurring invoice, go to Invoices > Recurring > New schedule, choose the customer, add line items, select weekly frequency, and set the start date. Choose to send automatically for instant delivery [recurring-invoices#2]. If they cancel, you can pause the schedule to stop future invoices without deleting it [recurring-invoices#4]. Let me know if you need further help. Best, [Your name], Ledgerline (Demo) Support
+action plan:
+  - action=add_note, contact_id=4137324527033700316216426686037
+      | Support ticket LIVE-0001 received 2026-11-10T10:00:00+00:00 (automated triage by support-inbox-agent, logged after human approval).
+      | Subject: Setting up a weekly recurring invoice
+      | Category: how_to, urgency normal, sentiment positive
+      | Summary: Maya wants to set up a weekly recurring invoice and knows how to stop it if the customer cancels.
+      | Decision: draft reply prepared for a human to review and send. Nothing was sent by the agent.
+      | Draft reply:
+      | Hi Maya, to set up a weekly recurring invoice, go to Invoices > Recurring > New schedule, choose the customer, add line items, select weekly frequency, and set the start date. Choose to send automatically for instant delivery [recurring-invoices#2]. If they cancel, you can pause the schedule to stop future invoices without deleting it [recurring-invoices#4]. Let me know if you need further help. Best, [Your name], Ledgerline (Demo) Support
+      | Cited sources: kb/recurring-invoices.md (recurring-invoices#2, recurring-invoices#4)
+timings (s): validate=0.001, lookup=2.756, classify=1.454, retrieve=2.064, draft=1.732, ground=0.001, route=0.0, plan=0.0
+pending: approve later with `support approve live-0001-3d836eb0 --decision approve|reject`
+----------------------------------------------------------------------
+run_id: live-0001-3d836eb0
+status: executed
+ticket: LIVE-0001 from Maya Demo <maya@example.com>: Setting up a weekly recurring invoice
+category: how_to  urgency: normal  sentiment: positive
+  summary: Maya wants to set up a weekly recurring invoice and knows how to stop it if the customer cancels.
+crm: sender is an existing contact; the note goes on that record
+retrieved (top vector similarity 0.799):
+  - recurring-invoices#2  (kb/recurring-invoices.md; rrf=0.032787, vec=0.798571, bm25=21.900706)
+  - recurring-invoices#1  (kb/recurring-invoices.md; rrf=0.032258, vec=0.748564, bm25=21.240349)
+  - invoice-numbering#5  (kb/invoice-numbering.md; rrf=0.031746, vec=0.732665, bm25=16.808361)
+  - known-issues#2  (kb/known-issues.md; rrf=0.03125, vec=0.697552, bm25=14.960055)
+  - recurring-invoices#4  (kb/recurring-invoices.md; rrf=0.030303, vec=0.683975, bm25=11.982484)
+decision: draft for approval
+grounding: ok; citations 2/2 valid; quotes 0 (0 bad)
+draft reply (NOT sent):
+  Hi Maya, to set up a weekly recurring invoice, go to Invoices > Recurring > New schedule, choose the customer, add line items, select weekly frequency, and set the start date. Choose to send automatically for instant delivery [recurring-invoices#2]. If they cancel, you can pause the schedule to stop future invoices without deleting it [recurring-invoices#4]. Let me know if you need further help. Best, [Your name], Ledgerline (Demo) Support
+action plan:
+  - action=add_note, contact_id=4137324527033700316216426686037
+      | Support ticket LIVE-0001 received 2026-11-10T10:00:00+00:00 (automated triage by support-inbox-agent, logged after human approval).
+      | Subject: Setting up a weekly recurring invoice
+      | Category: how_to, urgency normal, sentiment positive
+      | Summary: Maya wants to set up a weekly recurring invoice and knows how to stop it if the customer cancels.
+      | Decision: draft reply prepared for a human to review and send. Nothing was sent by the agent.
+      | Draft reply:
+      | Hi Maya, to set up a weekly recurring invoice, go to Invoices > Recurring > New schedule, choose the customer, add line items, select weekly frequency, and set the start date. Choose to send automatically for instant delivery [recurring-invoices#2]. If they cancel, you can pause the schedule to stop future invoices without deleting it [recurring-invoices#4]. Let me know if you need further help. Best, [Your name], Ledgerline (Demo) Support
+      | Cited sources: kb/recurring-invoices.md (recurring-invoices#2, recurring-invoices#4)
+execution:
+  - {'action': 'add_note', 'ok': True, 'note_id': '4137407958060030610145022549118'}
+timings (s): validate=0.001, lookup=2.756, classify=1.454, retrieve=2.064, draft=1.732, ground=0.001, route=0.0, plan=0.0, execute=2.055, report=0.0
+----------------------------------------------------------------------
+Independent verification (read-only LACRM connector, 2026-11-10):
+  contact 4137324527033700316216426686037 Maya Demo (existing record, 1 match for the sender email; no contact created)
+  notes on contact: 6, was 5 before the run; the new note is 4137407958060030610145022549118 and its text matches the plan
+  tasks on contact: 1, the pre-existing "Send wholesale quote to Maya (demo)" from 2026-11-09; no task created
+  no other records or pipelines were touched (the plan had a single add_note)
+All people, companies and tickets above are fictional.

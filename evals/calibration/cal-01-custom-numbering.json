@@ -1,0 +1,15 @@
+{
+  "fictional": true,
+  "ticket": {
+    "id": "C-001",
+    "from_name": "Alma Demo",
+    "from_email": "alma@foxglove-demo.example",
+    "subject": "Invoice numbers should start with the year",
+    "body": "Hi, can I make my invoice numbers look like 2026-0001 instead of INV-0001? I also want to continue from number 150 because I used another tool before. Is that allowed?",
+    "received_at": "2026-10-06T10:30:00Z"
+  },
+  "answerable": true,
+  "expected_sources": [
+    "kb/invoice-numbering.md"
+  ]
+}

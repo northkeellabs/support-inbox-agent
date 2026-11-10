@@ -1,0 +1,20 @@
+{
+  "fictional": true,
+  "kind": "answerable",
+  "ticket": {
+    "id": "T-0007",
+    "from_name": "Sofia Marchetti-Demo",
+    "from_email": "sofia@quillandco-demo.example",
+    "subject": "Getting 429 errors from the API",
+    "body": "Our nightly sync job started getting 429 responses from the API. What is the limit per minute and how should we handle it in our code? We are on the Scale plan and would like to avoid rewriting everything if possible.",
+    "received_at": "2026-11-08T09:15:00Z"
+  },
+  "expected_category": "how_to",
+  "expected_escalate": false,
+  "expected_sources": [
+    "kb/api-rate-limits.md"
+  ],
+  "injection": null,
+  "kb": "main",
+  "note": "Rate limit of 120/min and Retry-After handling."
+}

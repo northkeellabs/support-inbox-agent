@@ -1,0 +1,15 @@
+{
+  "fictional": true,
+  "ticket": {
+    "id": "C-003",
+    "from_name": "Cleo Demo",
+    "from_email": "cleo@poppyfield-demo.example",
+    "subject": "Put my logo on invoices",
+    "body": "Where do I upload my logo and what size or file type works? I only have it as an SVG file at the moment.",
+    "received_at": "2026-10-08T10:30:00Z"
+  },
+  "answerable": true,
+  "expected_sources": [
+    "kb/invoice-templates-and-branding.md"
+  ]
+}

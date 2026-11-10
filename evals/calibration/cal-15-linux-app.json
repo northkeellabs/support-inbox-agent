@@ -1,0 +1,13 @@
+{
+  "fictional": true,
+  "ticket": {
+    "id": "C-015",
+    "from_name": "Petra Demo",
+    "from_email": "petra@basalt-demo.example",
+    "subject": "Native Linux desktop app?",
+    "body": "Is there a native desktop application for Linux that works offline? I would like to create invoices on a plane and sync them later.",
+    "received_at": "2026-10-20T10:30:00Z"
+  },
+  "answerable": false,
+  "expected_sources": []
+}

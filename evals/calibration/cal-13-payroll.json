@@ -1,0 +1,13 @@
+{
+  "fictional": true,
+  "ticket": {
+    "id": "C-013",
+    "from_name": "Nadia Demo",
+    "from_email": "nadia@oakhollow-demo.example",
+    "subject": "Does Ledgerline run payroll?",
+    "body": "We are looking for one tool for invoices and payroll. Can Ledgerline calculate salaries, run payroll and file payroll taxes for our 12 employees?",
+    "received_at": "2026-10-18T10:30:00Z"
+  },
+  "answerable": false,
+  "expected_sources": []
+}

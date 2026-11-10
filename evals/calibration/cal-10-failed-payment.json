@@ -1,0 +1,16 @@
+{
+  "fictional": true,
+  "ticket": {
+    "id": "C-010",
+    "from_name": "Kofi Demo",
+    "from_email": "kofi@ember-demo.example",
+    "subject": "My subscription payment failed",
+    "body": "I got an email saying my subscription payment failed because my card expired. Will Ledgerline try again by itself and how do I put in a new card?",
+    "received_at": "2026-10-15T10:30:00Z"
+  },
+  "answerable": true,
+  "expected_sources": [
+    "kb/payment-failures-and-retries.md",
+    "kb/subscription-billing-and-receipts.md"
+  ]
+}

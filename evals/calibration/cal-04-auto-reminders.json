@@ -1,0 +1,15 @@
+{
+  "fictional": true,
+  "ticket": {
+    "id": "C-004",
+    "from_name": "Dev Demo",
+    "from_email": "dev@larkspur-demo.example",
+    "subject": "Reminders before the due date",
+    "body": "Can Ledgerline email my customers a reminder three days before an invoice is due and then again after it is late? I am on the Starter plan.",
+    "received_at": "2026-10-09T10:30:00Z"
+  },
+  "answerable": true,
+  "expected_sources": [
+    "kb/sending-invoices-and-reminders.md"
+  ]
+}

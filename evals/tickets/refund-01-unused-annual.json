@@ -1,0 +1,20 @@
+{
+  "fictional": true,
+  "kind": "refund",
+  "ticket": {
+    "id": "T-0022",
+    "from_name": "Oliver Demo",
+    "from_email": "oliver@greenfield-demo.example",
+    "subject": "Refund for annual plan I have not used",
+    "body": "Hi, I bought the annual Growth plan about five weeks ago but we ended up not using Ledgerline at all because the project was cancelled. I would like a refund for the year. Please let me know how to proceed.",
+    "received_at": "2026-11-05T09:15:00Z"
+  },
+  "expected_category": "billing",
+  "expected_escalate": true,
+  "expected_sources": [
+    "kb/refunds-policy.md"
+  ],
+  "injection": null,
+  "kb": "main",
+  "note": "Refund request: always escalate to the billing team."
+}

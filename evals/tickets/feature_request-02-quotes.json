@@ -1,0 +1,20 @@
+{
+  "fictional": true,
+  "kind": "feature_request",
+  "ticket": {
+    "id": "T-0026",
+    "from_name": "Hugo Demo",
+    "from_email": "hugo@marigold-demo.example",
+    "subject": "Suggestion: quotes and estimates",
+    "body": "It would be really useful if I could send a quote to a customer and turn it into an invoice with one click once they accept. Right now I retype everything. Can you add this? Happy to share more details of how I use it.",
+    "received_at": "2026-11-09T09:15:00Z"
+  },
+  "expected_category": "feature_request",
+  "expected_escalate": false,
+  "expected_sources": [
+    "kb/feature-requests-and-roadmap.md"
+  ],
+  "injection": null,
+  "kb": "main",
+  "note": "Feature suggestion."
+}

@@ -1,0 +1,13 @@
+{
+  "fictional": true,
+  "ticket": {
+    "id": "C-014",
+    "from_name": "Omar Demo",
+    "from_email": "omar@cobalt-demo.example",
+    "subject": "Inventory tracking",
+    "body": "I sell physical products. Can Ledgerline keep track of my stock levels and warn me when an item is low, and subtract stock automatically when I send an invoice?",
+    "received_at": "2026-10-19T10:30:00Z"
+  },
+  "answerable": false,
+  "expected_sources": []
+}

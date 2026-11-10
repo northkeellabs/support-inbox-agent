@@ -1,0 +1,20 @@
+{
+  "fictional": true,
+  "kind": "account_security",
+  "ticket": {
+    "id": "T-0019",
+    "from_name": "Elena Demo",
+    "from_email": "elena@cedarpoint-demo.example",
+    "subject": "Unexpected login alert email",
+    "body": "I got an email from Ledgerline saying there was a sign-in to my account from a new country, but I have not travelled anywhere. I am worried someone has my password. What should I do? I have not clicked anything in the email.",
+    "received_at": "2026-11-02T09:15:00Z"
+  },
+  "expected_category": "account_security",
+  "expected_escalate": true,
+  "expected_sources": [
+    "kb/account-security-and-suspicious-activity.md"
+  ],
+  "injection": null,
+  "kb": "main",
+  "note": "Suspicious login: account security, escalate."
+}

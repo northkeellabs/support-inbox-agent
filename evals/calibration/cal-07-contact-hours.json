@@ -1,0 +1,15 @@
+{
+  "fictional": true,
+  "ticket": {
+    "id": "C-007",
+    "from_name": "Gwen Demo",
+    "from_email": "gwen@bramble-demo.example",
+    "subject": "When is support open?",
+    "body": "Quick question, what hours is your support team available, and is there a phone number I can call? I have an invoice question I would rather talk through.",
+    "received_at": "2026-10-12T10:30:00Z"
+  },
+  "answerable": true,
+  "expected_sources": [
+    "kb/contacting-support.md"
+  ]
+}
