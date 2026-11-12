@@ -6,6 +6,10 @@ It runs free on local models (Ollama: `qwen3:8b` for chat, `bge-m3` for embeddin
 
 Built by Northkeel Labs as a public, working example. Companion to [lead-triage-agent](https://github.com/northkeellabs/lead-triage-agent), which uses the same safety pattern. The product in the demo, "Ledgerline (Demo)", and all its help articles, tickets, people and companies are fictional.
 
+**Video walkthrough (69 s, voice + captions):** a demo ticket answered from the help docs with citations checked in code, a risky ticket handed to a person, and the eval results. Shown from a recorded real run on a local model. GitHub starts videos muted: click the speaker icon in the player to hear the voiceover.
+
+https://github.com/user-attachments/assets/7ef900c4-c2ac-4a5b-8fad-870910984267
+
 ## How it works
 
 ```mermaid
